@@ -34,7 +34,16 @@ p{
     font-family: 'Poppins', sans-serif;
 }
 
-
+.kotak{
+    display: block;
+    margin-top: 1em;
+    margin-left:  211px;
+    height: 23px;
+    width: 240px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 147, 24);
+    border-radius: 10px;
+}
 
 /* input {
     writing-mode: horizontal-tb !important;
