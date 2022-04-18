@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"
+    <title></title>
+</head>
+<style>
+    label{
+        font-weight: bold;
+    }
+    body{
+        background-image: url(bingkai.png);
+    }
+</style>
+<body>
+    <div class="container p-3 my-3 border";
+    <h1></h1>
+    <h1 <strong>FORM ISI DATA</strong> </h1>
+    <h2></h2>
+        <form id="form" method="POST">
+            <strong>DATA PASIEN :</strong>
+            <h2></h2>
+            <h2></h2>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Nama :</label>
+                        <input type="text" name="nama" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Nama Ibu Kandung :</label>
+                        <input type="text" name="namaibu" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>No.Kartu BPJS :</label>
+                        <input type="number" name="nokartu" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Nama Ayah Kandung :</label> 
+                        <input type="text" name="namaayah" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <label>Tempat Lahir :</label>
+                        <input type="text" name="tempatlahir" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <label>Tanggal Lahir :</label> 
+                        <input type="date" name="tgllahir" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Golongan Darah :</label> 
+                        <input type="text" name="gol.darah" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Umur :</label>
+                        <input type="number" name="umur" class="form-control"> 
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Pekerjaan :</label> 
+                        <input type="text" name="pekerjaan" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="form-group">
+                        <label>Jenis Kelamin :</label>
+                        <br>
+                        <input type="radio" name="jk" value="Pria"> Pria
+                        <br>
+                        <input type="radio" name="jk" value="Wanita"> Wanita
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label>Alamat :</label> 
+                        <input type="textarea" name="alamat" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Tanggal Pembuatan Surat :</label> 
+                        <input type="date" name="tglsurat" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <center>
+                <button style="color: #DE7119" type="submit" name="submit" class="btn-konfir">Konfirmasi</button>
+                <button style="color: #DE7119" type="reset" name="reset" class="btn-secondary">Reset</button>
+            </center>
+
+        </form>
+    </div>
+</body>
+</html>
