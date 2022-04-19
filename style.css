@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+.judul{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 90px;
+    text-align: center;
+    color: #444444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    padding: 14px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: #DE7119;
+    border-color: rgba(0, 0, 0, 0.25);
+    color:white;
+    border-radius: 15px;
+}
+
+.buttonkembali{
+    background-color: ;
+    border-color: rgba(0, 0, 0, 0.25);
+    color:white;
+
+}
