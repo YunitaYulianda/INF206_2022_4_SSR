@@ -1,0 +1,61 @@
+label{
+    color: rgb(126, 126, 126);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+header{
+    background-attachment: fixed;
+    resize:none;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+input{
+    opacity: 10;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    -moz-box-shadow: 3px 3px 4px rgb(121, 121, 121);
+    -webkit-box-shadow: 3px 3px 4px rgb(121, 121, 121);
+    box-shadow: 3px 3px 4px rgb(121, 121, 121);
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#cccccc')";
+    /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#cccccc');
+}
+
+.warna{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(194, 194, 194);
+    text-indent: 10px;
+    size: relative;
+}
+
+div{
+    overflow:auto;
+    resize:none;
+    width: 1455px;
+    height: 620px;
+    background-repeat: no-repeat;
+    background-position-x: 31.5em;
+}
+
+img:hover{
+    opacity: 0.5;
+}
+hr { 
+    display: block; 
+    color: black;
+    /* margin-before: 0.5em; 
+    margin-after: 0.5em; */
+    margin-start: auto; 
+    margin-end: auto;  
+    overflow:hidden; 
+    border-style:inset ;
+    border-width: 4px;
+}
