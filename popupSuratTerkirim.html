@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Untuk menyambungkan pop up ini ke halaman yang diinginkan, pindahkan code ini dan hubungkan dengan
+    dengan button di halaman tersebut-->
+    <button type="button" id="btn">Login</button> <!--button ini dubuat di halaman tujuan-->
+    <script src="sweetalert2.all.min.js"></script>
+    <script>
+        const btn=document.getElementById('btn');
+        btn.addEventListener('click',function(){
+            Swal.fire({
+                title:'Surat Sudah Terkirim ke-Rumah Sakit Rujukan',
+                confirmButtonColor:'#DE7119'
+                
+            })
+        })
+    </script>
+</body>
+</html>
