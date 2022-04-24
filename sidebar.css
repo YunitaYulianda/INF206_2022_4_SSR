@@ -9,6 +9,7 @@ body{
     list-style: none;
     text-decoration: none;
 }
+
 .sidebar{
     position: fixed;
     left: -270px;
@@ -17,9 +18,11 @@ body{
     background: #DEE3E2;
     transition: all .5s ease;
 }
+
 .sidebar header{
     align-items: center;
 }
+
 .sidebar ul a{
     display: block;
     height: 100%;
@@ -68,7 +71,7 @@ label #cancel{
     font-size: 15px;
     color: #C4C4C4;
     padding: 1px 6px;
-    transition:all .4s ease;
+    transition:all .5s ease;
 }
 
 #check:checked ~ .sidebar{

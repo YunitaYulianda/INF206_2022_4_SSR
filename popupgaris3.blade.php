@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
     <meta charset="UTF-8">
     <title>Sidebar</title>
     <link rel="stylesheet" href="css/sidebar.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
+
 <body>
     <input type="checkbox" id="check">
     <label for="check">
@@ -20,10 +22,6 @@
             <li><a href="#"><i class="fas fa-phone"></i>Contact Person</a></li>
         </ul>
     </div>
-    <section>
-        
-    </section>
-
-
+    
 </body>
 </html>
