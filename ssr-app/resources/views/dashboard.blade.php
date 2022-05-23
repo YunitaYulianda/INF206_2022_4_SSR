@@ -9,11 +9,19 @@
     <div class="profile-edit">
       @if(auth()->user()->picture)
       <div class="profile-img">
+<<<<<<< HEAD
         <img src="{{ asset('storage/' . auth()->user()->picture) }}" alt="Profile's Picture" width="200" height="200"/>
       </div>
       @else
       <div class="profile-img">
         <img src="{{ asset('storage/picture/profile.png') }}" alt="Profile's Picture" width="200" height="200"/>
+=======
+        <img src="{{ asset('storage/' . auth()->user()->picture) }}" alt="Profile's Picture" width="200" />
+      </div>
+      @else
+      <div class="profile-img">
+        <img src="{{ asset('storage/picture/profile.png') }}" alt="Profile's Picture" width="200" />
+>>>>>>> main
       </div>
       @endif
       <a href="/edit" class="edit" title="Edit Data"><i class="bx bxs-edit"></i></a>

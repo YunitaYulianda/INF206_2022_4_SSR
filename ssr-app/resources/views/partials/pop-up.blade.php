@@ -55,9 +55,15 @@
       <h4>{{ auth()->user()->nama_depan }}</h4>
       <a class="nav-link" aria-current="page" href="/dashboard">
         @if(auth()->user()->picture)
+<<<<<<< HEAD
           <img class="profile-pict" style="margin-top: 2px !important;" src="{{ asset('storage/' . auth()->user()->picture) }}" alt="Profile's Picture" width="50" height="50"/>
         @else
           <img class="profile-pict" style="margin-top: 2px !important;" src="{{ asset('storage/picture/profile.png') }}" alt="Profile's Picture" width="50" height="50"/>
+=======
+          <img class="profile-pict" style="margin-top: 2px !important;" src="{{ asset('storage/' . auth()->user()->picture) }}" alt="Profile's Picture" width="50" />
+        @else
+          <img class="profile-pict" style="margin-top: 2px !important;" src="{{ asset('storage/picture/profile.png') }}" alt="Profile's Picture" width="50" />
+>>>>>>> main
         @endif
       </a>
     </div>

@@ -76,9 +76,15 @@
             <button class="btn btn-edit" type="submit" name="edit">Edit Data</button>
         </form>
         @if(auth()->user()->picture)
+<<<<<<< HEAD
         <img src="{{ asset('storage/' . auth()->user()->picture) }}" class="img-thumbnail circle mt-2" width="30%" height="400" class="edit-img" alt="">
         @else
         <img src="storage/picture/profile.png" class="img-thumbnail circle mt-2" width="30%" height="400" class="edit-img" alt="">
+=======
+        <img src="{{ asset('storage/' . auth()->user()->picture) }}" class="img-thumbnail circle mt-2" width="30%" class="edit-img" alt="">
+        @else
+        <img src="storage/picture/profile.png" class="img-thumbnail circle mt-2" width="30%" class="edit-img" alt="">
+>>>>>>> main
         @endif
     </div>
 </div>

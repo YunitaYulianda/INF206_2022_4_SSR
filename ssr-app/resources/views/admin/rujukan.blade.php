@@ -33,6 +33,7 @@
                   </ul> 
                   <ul class="list-group col-md-6">
                     <li class="list-group-item">Kartu Keluarga : <br>
+<<<<<<< HEAD
                       <a href="{{ asset('storage/' . $data->kartu_keluarga) }}">Download</a>
                         <iframe src="{{ asset('storage/' . $data->kartu_keluarga) }}" frameBorder="0"
                             scrolling="auto" class="img-thumbnail" width="100%" height="100%" ></iframe>
@@ -46,6 +47,18 @@
                       <a href="{{ asset('storage/' . $data->suket_dokter) }}">Download</a>
                         <iframe src="{{ asset('storage/' . $data->suket_dokter) }}" frameBorder="0"
                             scrolling="auto" class="img-thumbnail" width="100%" height="100%" ></iframe>
+=======
+                        <embed src="{{ asset('storage/' . $data->kartu_keluarga) }}" frameBorder="0"
+                            scrolling="auto" class="img-thumbnail" width="100%" height="100%" />
+                    </li>
+                    <li class="list-group-item">Kartu BPJS : <br>
+                        <embed src="{{ asset('storage/' . $data->kartu_bpjs) }}" frameBorder="0"
+                            scrolling="auto" class="img-thumbnail" width="100%" height="100%" />
+                    </li>
+                    <li class="list-group-item">Surat Keterangan Dokter : <br>
+                        <embed src="{{ asset('storage/' . $data->suket_dokter) }}" frameBorder="0"
+                            scrolling="auto" class="img-thumbnail" width="100%" height="100%" />
+>>>>>>> main
                     </li>
                   </ul>
               </div>

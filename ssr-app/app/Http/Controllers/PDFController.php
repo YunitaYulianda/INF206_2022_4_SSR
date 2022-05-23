@@ -23,7 +23,11 @@ class PDFController extends Controller
 
     {
         $surat = ((Surat::where('pasien_id', auth()->user()->id)->get())->last())->toArray();
+<<<<<<< HEAD
         $surat["email"] = "yunitayulianda2019@gmail.com";
+=======
+        $surat["email"] = "farhantsyh@icloud.com";
+>>>>>>> main
         $surat["title"] = "Pembuatan Surat Rujukan";
 
         $pdf = PDF::loadView('pdf', $surat);

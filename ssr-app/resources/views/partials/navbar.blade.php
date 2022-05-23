@@ -74,9 +74,15 @@
                 <li class="nav-item">
                   <a class="nav-link profile-pop" aria-current="page" href="#">
                     @if(auth()->user()->picture)
+<<<<<<< HEAD
                       <img class="profile-pict" style="margin-top: 2px !important;" src="{{ asset('storage/' . auth()->user()->picture) }}" alt="Profile's Picture" width="200"/>
                     @else
                       <img class="profile-pict" style="margin-top: 2px !important;" src="{{ asset('storage/picture/profile.png') }}" alt="Profile's Picture" width="200"/>
+=======
+                      <img class="profile-pict" style="margin-top: 2px !important;" src="{{ asset('storage/' . auth()->user()->picture) }}" alt="Profile's Picture" width="200" />
+                    @else
+                      <img class="profile-pict" style="margin-top: 2px !important;" src="{{ asset('storage/picture/profile.png') }}" alt="Profile's Picture" width="200" />
+>>>>>>> main
                     @endif
                   </a>
                 </li>
